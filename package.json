@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "colors": "^1.4.0",
+    "cycletls": "^1.0.21",
+    "mathjs": "^11.9.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^3.3.0",
+    "pkg": "^5.8.1"
+  },
+  "name": "owo-agent",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "private": true,
+  "devDependencies": {},
+  "scripts": {
+    "build": "pkg ./src/index.js --targets node18-win-x64,node18-linux-x64 --output ./dist/owo-agent"
+  }
+}
